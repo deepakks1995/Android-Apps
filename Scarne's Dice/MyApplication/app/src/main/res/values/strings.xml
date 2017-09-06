@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Your Score: 0 Computer Score: 0</string>
+    <string name="button_send">Send</string>
+</resources>

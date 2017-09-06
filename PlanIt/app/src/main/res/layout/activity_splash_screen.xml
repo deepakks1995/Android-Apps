@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="niggas.your.planit.SplashScreen"
+    android:background="@drawable/splashscreen"
+    android:visibility="visible">
+
+    <ImageView android:id="@+id/splashscreen" android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:src="@drawable/splashscreen"
+        android:layout_gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:id="@+id/splGoButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="false"
+        android:onClick="a" />
+
+
+</RelativeLayout>
